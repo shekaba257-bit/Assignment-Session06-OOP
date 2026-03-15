@@ -125,6 +125,39 @@ namespace Assignment_Session06_OOP
 
             #endregion
             #endregion
+            #region Part02
+            //Cinema cinema = new Cinema();
+            //cinema.Open();
+
+            //// Ticket t = new Ticket("Test", 100);  // ERROR: Cannot create instance of abstract type 'Ticket'
+
+            //var standard = new StandardTicket("Inception", 80, "A5");
+            //var vip = new VIPTicket("Avengers", 200, true, 50);
+            //var imax = new IMAXTicket("Dune", 130, true);
+
+            //standard.Book();
+            //vip.Book();
+            //imax.Book();
+
+            //cinema.AddTicket(standard);
+            //cinema.AddTicket(vip);
+            //cinema.AddTicket(imax);
+
+            //cinema.PrintAllTickets();
+
+            //Console.WriteLine("\n --- Polymorphism: Final Price per Ticket ---");
+            //Ticket[] arr = { standard, vip, imax };
+            //foreach (var t in arr)
+            //    Console.WriteLine($"{t.GetType().Name} => Final Price: {t.CalculateFinalPrice():F2}");
+
+            //Console.WriteLine("\n --- Extension Method: Receipt ---");
+            //Console.WriteLine(vip.GenerateReceipt());
+
+            //Console.WriteLine("\n --- Extension Method: Total Revenue ---");
+            //Console.WriteLine($" Total Revenue: {arr.TotalRevenue():F2}");
+
+            //cinema.Close();
+            #endregion
         }
     }
 }
